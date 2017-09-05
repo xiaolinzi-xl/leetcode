@@ -1,5 +1,3 @@
-package sort;
-
 public class InserrtSort {
 
 	public static void insertSort(int[] arr) {

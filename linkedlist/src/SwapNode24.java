@@ -1,5 +1,3 @@
-package linkedlist;
-
 public class SwapNode24 {
 	 public ListNode swapPairs(ListNode head) {
 		 ListNode virNode = new ListNode(0);

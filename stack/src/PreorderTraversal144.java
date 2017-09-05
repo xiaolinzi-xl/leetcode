@@ -1,11 +1,9 @@
-package stack;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Stack;
 
 /*
- * 二叉树的先序遍历
+ *
  */
 public class PreorderTraversal144 {
 	public static void preorder(TreeNode head) {
@@ -15,8 +13,7 @@ public class PreorderTraversal144 {
 			preorder(head.right);
 		}
 	}
-	
-	// 非递归先序遍历算法
+
 	public static int[] preorderTraversal(TreeNode root) {
 		ArrayList<Integer> resList = new ArrayList<>();
 		if (root == null) {

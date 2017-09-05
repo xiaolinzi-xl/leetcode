@@ -1,8 +1,6 @@
-package array;
-
 public class MinimumSize {
 	public static int minSubArrayLen(int s,int[] nums) {
-		int l = 0,r = -1; // num[l,r]Îª»¬¶¯´°¿Ú
+		int l = 0,r = -1; // num[l,r]Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		int sum = 0;
 		int res = nums.length + 1;
 		

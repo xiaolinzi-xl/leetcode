@@ -1,5 +1,3 @@
-package find;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 

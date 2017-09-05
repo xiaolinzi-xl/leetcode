@@ -1,5 +1,3 @@
-package linkedlist;
-
 public class AddTwoNumbers {
 	/*
 	 * 逆序存储的两个链表，每个节点的值都为一位数，返回链表每个节点的值仍为一位数。

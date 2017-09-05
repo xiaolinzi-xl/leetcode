@@ -1,5 +1,3 @@
-package recursive;
-
 public class NumberOfIslands {
 	// 搜索的顺序-----顺时针顺序
 	private int[][] d = {{-1,0},{0,1},{1,0},{0,-1}};

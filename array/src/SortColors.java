@@ -1,9 +1,7 @@
-package array;
-
 public class SortColors {
-//	¼ÆÊýÅÅÐò
+//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	public static void sortColors(int[] nums) {
-		int[] count = new int[3]; // ´æ·Å0,1,2µÄÆµÂÊ
+		int[] count = new int[3]; // ï¿½ï¿½ï¿½0,1,2ï¿½ï¿½Æµï¿½ï¿½
 		for(int i=0;i<nums.length;i++){
 			count[nums[i]]++;
 		}

@@ -1,5 +1,3 @@
-package array;
-
 import java.util.Arrays;
 
 public class MoveZeros {
@@ -20,7 +18,7 @@ public class MoveZeros {
 	}
 	
 	public static void moveZeroes2(int[] nums) {
-		int k = 0; // [0-k)均为非0
+		int k = 0; // [0-k)锟斤拷为锟斤拷0
 		for(int i=0;i<nums.length;i++){
 			if (nums[i] != 0) {
 				nums[k++] = nums[i];
@@ -32,7 +30,7 @@ public class MoveZeros {
 	}
 	
 	public static void moveZeroes3(int[] nums) {
-		int k = 0; // nums[0,k)为非零元素，[k,i]为0
+		int k = 0; // nums[0,k)为锟斤拷锟斤拷元锟截ｏ拷[k,i]为0
 		for(int i=0;i<nums.length;i++){
 			if (nums[i] != 0) {
 				if (i != k) {

@@ -1,5 +1,3 @@
-package linkedlist;
-
 public class ReverseList206 {
 	public static ListNode reverseList(ListNode head){
 		ListNode pre = null;

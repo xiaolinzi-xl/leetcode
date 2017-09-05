@@ -1,10 +1,8 @@
-package find;
-
 import java.util.TreeSet;
 
 public class Contains220 {
 	 public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
-		TreeSet<Long> record = new TreeSet<>(); // ×¢ÒâÕûÊıÒç³ö
+		TreeSet<Long> record = new TreeSet<>(); // ×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		for(int i=0;i<nums.length;i++){
 			if (record.ceiling((long)nums[i]-(long)t) != null && 
 					record.ceiling((long)nums[i]-(long)t) <= (long)nums[i]+(long)t) {

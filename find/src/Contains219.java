@@ -1,5 +1,3 @@
-package find;
-
 import java.util.HashSet;
 
 public class Contains219 {
@@ -10,7 +8,7 @@ public class Contains219 {
 				return true;
 			}
 			record.add(nums[i]);
-			if (record.size() == k+1) { // ±£³Ök·¶Î§
+			if (record.size() == k+1) { // ï¿½ï¿½ï¿½ï¿½kï¿½ï¿½Î§
 				record.remove(nums[i-k]);
 			}
 		}

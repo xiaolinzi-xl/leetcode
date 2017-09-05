@@ -1,5 +1,3 @@
-package linkedlist;
-
 public class DeleteNode {
 	 public void deleteNode(ListNode node){
 		 if (node == null) 

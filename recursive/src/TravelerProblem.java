@@ -1,4 +1,3 @@
-package recursive;
 /**
  * 旅行商问题：np问题
  * @author xiaolinzi

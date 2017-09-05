@@ -1,5 +1,3 @@
-package find;
-
 import java.util.HashSet;
 import java.util.Iterator;
 

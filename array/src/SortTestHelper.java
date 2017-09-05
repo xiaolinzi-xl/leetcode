@@ -1,10 +1,8 @@
-package array;
-
 public class SortTestHelper {
-	 // SortTestHelper²»ÔÊĞí²úÉúÈÎºÎÊµÀı
+	 // SortTestHelperï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îºï¿½Êµï¿½ï¿½
     private SortTestHelper(){}
 
-    // Éú³ÉÓĞn¸öÔªËØµÄËæ»úÊı×é,Ã¿¸öÔªËØµÄËæ»ú·¶Î§Îª[rangeL, rangeR]
+    // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½ï¿½Ôªï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,Ã¿ï¿½ï¿½Ôªï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î§Îª[rangeL, rangeR]
     public static Integer[] generateRandomArray(int n, int rangeL, int rangeR) {
 
         assert rangeL <= rangeR;
@@ -16,7 +14,7 @@ public class SortTestHelper {
         return arr;
     }
 
-    // ´òÓ¡arrÊı×éµÄËùÓĞÄÚÈİ
+    // ï¿½ï¿½Ó¡arrï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     public static void printArray(Object arr[]) {
 
         for (int i = 0; i < arr.length; i++){

@@ -1,5 +1,3 @@
-package sort;
-
 public class SortUtils {
 	
 	private SortUtils() {

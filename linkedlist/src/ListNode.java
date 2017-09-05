@@ -1,5 +1,3 @@
-package linkedlist;
-
 public class ListNode {
 	int val;
 	ListNode next;

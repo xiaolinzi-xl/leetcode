@@ -1,5 +1,3 @@
-package stack;
-
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
@@ -12,7 +10,7 @@ public class PerfectSquares279 {
 		visited[n] = true;
 		queue.add(new Node(n, 0));
 		
-		// Í¼µÄ¹ã¶ÈÓÅÏÈËÑË÷Í¼µÄ×î¶ÌÂ·¾¶£¬ÊÊºÏÎÞÈ¨Í¼
+		// Í¼ï¿½Ä¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½Êºï¿½ï¿½ï¿½È¨Í¼
 		while (!queue.isEmpty()) {
 			Node node = queue.removeFirst();
 			int num = node.num;
@@ -30,7 +28,7 @@ public class PerfectSquares279 {
 				}
 			}
 		}
-		return -1; // Òì³£
+		return -1; // ï¿½ì³£
 	}
 	
 	public static void main(String[] args) {
@@ -40,7 +38,7 @@ public class PerfectSquares279 {
 		for (int i = 0; i < 10; i++) {
 			priorityQueue.add(random.nextInt(100));
 		}
-//		Ä¬ÈÏÊÇ´ÓÐ¡µ½´óµÄ£¬
+//		Ä¬ï¿½ï¿½ï¿½Ç´ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½Ä£ï¿½
 		while(!priorityQueue.isEmpty()) {
 			System.out.print(priorityQueue.poll() + " ");
 		}
@@ -59,7 +57,7 @@ class Node{
 class MyComp implements Comparator<Integer>{
 	@Override
 	public int compare(Integer x, Integer y) {
-//		return (x < y) ? -1 : ((x == y) ? 0 : 1);  // ÉýÐò
-		return (x < y) ? 1 : ((x == y) ? 0 : -1); // ½µÐò
+//		return (x < y) ? -1 : ((x == y) ? 0 : 1);  // ï¿½ï¿½ï¿½ï¿½
+		return (x < y) ? 1 : ((x == y) ? 0 : -1); // ï¿½ï¿½ï¿½ï¿½
 	}
 }

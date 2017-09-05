@@ -1,5 +1,3 @@
-package linkedlist;
-
 public class RemoveElement203 {
 	public ListNode removeElements(ListNode head, int val){
 		while (head != null && head.val == val) {

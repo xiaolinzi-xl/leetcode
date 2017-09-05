@@ -1,5 +1,3 @@
-package recursive;
-
 import java.util.ArrayList;
 import java.util.List;
 /*

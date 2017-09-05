@@ -1,6 +1,5 @@
 public class IntegerBreak343 {
-	
-	// ��interger���ٷָ��2����
+
 	public static int integerBreak(int n) {
 		if (n == 1) {
 			return 1;
@@ -16,7 +15,7 @@ public class IntegerBreak343 {
 		if (n == 1) {
 			return 1;
 		}
-		// memo[i]��ʾ������i�ָ�����������ֵ����˻�
+
 		int[] memo = new int[n+1];
 		memo[1] = 1;
 		for(int i=2;i<=n;i++) {

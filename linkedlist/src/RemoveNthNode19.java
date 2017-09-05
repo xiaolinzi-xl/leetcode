@@ -1,5 +1,3 @@
-package linkedlist;
-
 public class RemoveNthNode19 {
 	public ListNode removeNthFromEnd(ListNode head, int n){
 		int length = 0;

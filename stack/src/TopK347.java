@@ -1,5 +1,3 @@
- package stack;
-
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -8,7 +6,7 @@ import java.util.Set;
 
 public class TopK347 {
 	public static int[] topKFrequent(int[] nums,int k) {
-		// 保证 k 合法
+
 		HashMap<Integer, Integer> freq = new HashMap<>();
 		for(int i=0;i<nums.length;i++) {
 			if (freq.containsKey(nums[i])) {
@@ -17,7 +15,7 @@ public class TopK347 {
 				freq.put(nums[i], 1);
 			}
 		}
-//		扫描freq，维护一个k个元素的优先队列
+
 		PriorityQueue<Pair> pq = new PriorityQueue<>();
 		Set<Map.Entry<Integer,Integer>> freqMap = freq.entrySet();
 		for(Map.Entry<Integer, Integer> entry : freqMap) {
